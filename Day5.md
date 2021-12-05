@@ -7,5 +7,7 @@
 Answer the questions below
   
 1.) What flag did you get when you disabled the plugin?
+            
+Basically, every step is already given above. Once all steps are completed a flag will be revealed.
   
 ![image](https://user-images.githubusercontent.com/95479102/144751113-fc98ff78-4479-4702-a756-61c42b4123c1.png)
