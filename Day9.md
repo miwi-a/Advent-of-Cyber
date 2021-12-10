@@ -8,6 +8,8 @@ What is the username and password used in the login page in the HTTP #2 - POST s
 
 ![image](https://user-images.githubusercontent.com/95479102/145520388-df97dfe0-711e-4200-8c1b-868dbf5ce716.png)
 
+url encoded  %21 is !
+
 What is the User-Agent's name that has been sent in HTTP #2 - POST section?
 
 http.request.method == POST
