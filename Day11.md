@@ -4,6 +4,7 @@ Knowing that MACHINE_IP is a MS Windows system, you expect it to not respond to 
 
 There is an open port related to MS SQL Server accessible over the network. What is the port number?
 
+![image](https://user-images.githubusercontent.com/95479102/145712319-9afced36-7e56-4924-b97e-dfe8217a543a.png)
 
 Knowing the MS SQL Server is running and accessible over the network, we want to check if our username and password are still valid. Using the AttackBox terminal, we will use the command sqsh (pronounced skwish), an interactive database shell.
 
@@ -16,6 +17,8 @@ A simple syntax would be sqsh -S server -U username -P password, where:
 Let’s try to run, sqsh -S MACHINE_IP -U sa -P t7uLKzddQzVjVFJp
 
 If the connection is successful, you will get a prompt. What is the prompt that you have received?
+
+![image](https://user-images.githubusercontent.com/95479102/145712379-ecb22cfc-c020-4852-bd7b-2de1f6ee22cb.png)
 
 McDatabaseAdmin told us the database name is reindeer and it has three tables:
 
@@ -54,9 +57,17 @@ pentester@TryHackMe$ sqsh -S MACHINE_IP -U sa -P "t7uLKzddQzVjVFJp"
 
 We can see four columns in the table displayed above: id, first (name), last (name), and nickname. What is the first name of the reindeer of id 9?
 
+![image](https://user-images.githubusercontent.com/95479102/145712442-5245fede-d03a-4e7a-9aa5-2372ca62adf3.png)
+
 Check the table schedule. What is the destination of the trip scheduled on December 7?
 
+![image](https://user-images.githubusercontent.com/95479102/145712477-0db9eb70-3f53-4c12-82d5-fa258be80089.png)
+
+![image](https://user-images.githubusercontent.com/95479102/145712489-6bd2bf3a-7d58-4079-8088-6cf7dc6cd3d8.png)
+
 Check the table presents. What is the quantity available for the present “Power Bank”?
+
+![image](https://user-images.githubusercontent.com/95479102/145712514-74268613-2544-4369-8a04-e0c0b2bcef74.png)
 
 You have done fantastic work! You have helped McDatabaseAdmin retrieve the schedule! Now, let’s see if we can run MS Windows commands while interacting with the database. Some MS SQL Servers have xp_cmdshell enabled. If this is the case, we might have access to something similar to a command prompt.
 
@@ -110,5 +121,9 @@ For more information type '\warranty'
         
 
 There is a flag hidden in the grinch user's home directory. What are its contents?
+
+![image](https://user-images.githubusercontent.com/95479102/145712775-1557d878-b3bc-4cb1-a986-34a15ea6e078.png)
+
+![image](https://user-images.githubusercontent.com/95479102/145712785-441f9f95-0c82-4986-8f73-c2e36abfec3c.png)
 
 Congratulations, the flag you have recovered contains the password of McDatabaseAdmin! In this task, we learned how to use sqsh to interact with a MS SQL Server. We learned that if xp_cmdshell is enabled, we can execute system commands and read the output using sqsh
