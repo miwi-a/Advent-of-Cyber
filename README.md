@@ -21,3 +21,9 @@ Day 9 - Wireshark
 Day 10 -Network Basics
 
 Day 11 - MS SQL Server
+
+Day 12 - NFS
+
+Day 13 - Windows PrivEsc
+
+Day 14 - CI/CD/Permission Misconfig
