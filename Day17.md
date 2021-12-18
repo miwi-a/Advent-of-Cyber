@@ -31,3 +31,13 @@ There is an EC2 Instance in this account. Under the TAGs, what is the Name of th
 ![image](https://user-images.githubusercontent.com/95479102/146632469-2a0d2da8-0ff1-4b2c-94ef-e7a43512d5fe.png)
 
 What is the database password stored in Secrets Manager?
+
+aws secretsmanager help
+
+![image](https://user-images.githubusercontent.com/95479102/146632533-c59f14d7-8822-4134-bd46-129f3ade1021.png)
+
+![image](https://user-images.githubusercontent.com/95479102/146632626-80e5b43f-284e-4818-b91a-4dda0fba3900.png)
+
+![image](https://user-images.githubusercontent.com/95479102/146632605-02eabe9a-6b6c-4f69-bbd3-1148bbab314c.png)
+
+![image](https://user-images.githubusercontent.com/95479102/146632659-12f2346f-c41e-49fd-830b-8032509419f4.png)
