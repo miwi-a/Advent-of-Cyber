@@ -27,3 +27,25 @@ Day 12 - NFS
 Day 13 - Windows PrivEsc
 
 Day 14 - CI/CD/Permission Misconfig
+
+Day 15 - Grinch Day Off
+
+Day 16 - OSINT
+
+Day 17 - AWS S3 Buckets
+
+Day 18 - AWS/Docker
+
+Day 19 - Phishing
+
+Day 20 - File Analysis
+
+Day 21 - Yara
+
+Day 22 - 
+
+Day 23 - 
+
+Day 24 - 
+
+Day 25 - 
